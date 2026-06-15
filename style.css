@@ -401,4 +401,139 @@ h1{
 
 }
 
+@media (max-width: 768px) {
 
+    h1 { font-size: 2.5rem ; }
+    h2 { font-size: 2rem ; }
+    h3 { font-size: 1.5rem ; }
+
+
+    .sec1 {
+        flex-direction: column ;
+        align-items: center;
+        padding: 15px 10px ;
+    }
+    .sec1-1 h1 {
+        font-size: 2.2rem ;
+        text-align: center ;
+        margin-bottom: 10px ;
+    }
+    .sec1-2 {
+        display: flex ;
+        flex-wrap: wrap;
+        justify-content: center ;
+        width: 100%;
+        gap: 5px ;
+    }
+    .top {
+        font-size: 18px ;
+        padding: 8px 16px ;
+        margin: 4px ;
+        float: none ;
+        border-radius: 10px ;
+    }
+
+    
+    #home {
+        flex-direction: column ; 
+        text-align: center ;
+        gap: 20px ;
+        padding: 20px 10px ;
+    }
+    .home-text {
+        margin: 0 n;
+        padding: 0 10px ;
+    }
+    .home-text h1 {
+        font-size: 3.5rem ; 
+    }
+    .home-text h3 {
+        font-size: 2.2rem;
+    }
+    .home-text p {
+        font-size: 18px ;
+        line-height: 1.5 ;
+    }
+    .myimage img {
+        width: 260px ;
+        height: 260px ;
+        margin: 20px auto ; 
+        margin-right: auto ; 
+    }
+    .gallery-btn {
+        font-size: 22px;
+        padding: 12px 20px ;
+        display: block ;
+        margin: 15px auto ;
+        width: 90% ;
+    }
+    .contact-button {
+        font-size: 20px ;
+        padding: 12px 20px ;
+        display: block ;
+        margin: 15px auto;
+        width: 90% ;
+    }
+
+    
+    #about {
+        display: flex ;
+        flex-direction: column ;
+        padding: 40px 20px ;
+        gap: 30px ;
+    }
+    #about > p {
+        font-size: 18px ; 
+        line-height: 1.6 ;
+    }
+    
+    
+    .info-sec {
+        width: 100% ; 
+        margin-right: 0 ;
+        padding: 25px 20px ;
+        border-radius: 25px ;
+    }
+    .info-text h2 {
+        font-size: 1.8rem ;
+    }
+    .info-text h3 {
+        font-size: 1.4rem ;
+    }
+    .info-btn {
+        font-size: 1.2rem ;
+        padding: 8px 12px ;
+        word-break: break-all ;
+        max-width: 100% ;
+    }
+
+    
+    .about-sec {
+        justify-content: center ;
+        margin-top: 20px ;
+    }
+    .about-image {
+        width: 100% ;
+        max-width: 100% ;
+        margin: 15px 0 ;
+    }
+
+    
+    #gallery h1 {
+        font-size: 2.5rem ;
+        text-align: center ;
+        margin-left: 0 ;
+    }
+    .acrelic-img img {
+        width: 100% ;
+        max-width: 100% ;
+        height: auto ;
+    }
+
+    
+    .last {
+        flex-direction: column ;
+        gap: 25px ;
+        padding: 30px 10px;
+    }
+}
