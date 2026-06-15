@@ -8,6 +8,8 @@ body{
     background-color: rgb(24, 27, 39);
     overflow-x: hidden;
 }
+a {
+    text-decoration: none;
 h2{
     color: white;
     font-size: 3.5rem;
