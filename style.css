@@ -59,8 +59,8 @@ h1{
 }
 .top:hover{
     transform: scale(1.0005) translate(-5px);
-    box-shadow: black;
-    color:#dff5ff
+    box-shadow: 0 0 35px black;
+    color:#dff5ff;
 }
 #home{
     display: flex;
