@@ -27,3 +27,6 @@ And they all go in an infinite loop to the right.
 ### Instagram and Facebook:
 There are two buttons at the bottom of the website with his accounts on Instagram and Facebook
 <img width="1916" height="744" alt="image" src="https://github.com/user-attachments/assets/043dd948-bfa6-4ea8-a493-e3d85a8c53d0" />
+
+### Important Note:
+I didn't make too much commits because I still wasn't experienced enough to know this method in VS code and Github.
